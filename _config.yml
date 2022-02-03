@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Sealgair"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Profile-Image.jpg"
   bio    : "Computer Engineering and Mathematical Physics Student."
   links:
     - label: "Website"
