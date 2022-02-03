@@ -1,5 +1,6 @@
 ---
 title: "Prooject test"
+date: 2021-06-18T15:34:30-04:00
 excerpt_separator: "<!--more-->"
 categories:
   - Project
