@@ -1,0 +1,49 @@
+---
+title: "Personal Goals for 2022"
+date: 2022-02-03
+excerpt_separator: "<!--more-->"
+categories:
+  - Blog
+tags:
+  - Coursework
+  - Degree
+  - Projects
+  - Personal
+---
+
+Last year was a mixed-bag for me as I'm sure it was for most people. Looking forward into 2022, I've taken on more responsibilities, I gained more skills, and I'm heading in direction of where I want to be. 
+
+I've taken on the role of Treasurer for two societies filled with friends who helped me get through the first year of my engineering degree. I'm looking forward to supporting the growth of the societies and giving back by supporting newbies just as I was supported.
+
+___
+
+# Additional Study
+This year there are 4 books I'd like to go through cover-to-cover.
+1. Reverse Engineering for Beginners by Dennis Yurichev
+2. How Computers Really Work by Matthew Justice
+3. How to Prove It by Daniel J. Valleman
+4. Basic Mathematics by Serge Lang 
+
+## Reverse Engineering for Beginners
+I first heard about [this book](https://beginners.re/) by Dennis Yurichev towards the end of last year as I got a broader understanding of the fields of cybersecurity. I was fortunate enough to attend the [Global Cybersecurity Camp 2022](https://www.div0.sg/post/gcc-2022) where I heard about it again, so I went to check it out.
+
+Looking deeper into it, it seemed like a fantastic resource to start learning reverse engineering and to practice skills and assembly code required as a Computer Engineer. Looking at just the first 3 chapters, Yurichev provides an overview of x86, x64, and ARM architectures with examples and exercises throughout. There so much more in the book then just that, but I will be focusing on the first-half of the book before worrying about what comes next. 
+
+Thankfully, the first two chapters appear to great additional resources for one of my upcoming classes. As I go through the book and complete the given exercises, I will post my solutions in a repository.
+
+## How Computers Really Work
+I bought [this book](https://nostarch.com/how-computers-really-work) by Matthew Justice when it was on pre-order but didn't have a chance to go through it last year. It follows along the same steps as a lot of [Ben Eater's](https://www.youtube.com/c/BenEater) videos. It is also a great additional resource for two units I have this year which is a big plus. From *Chapter 3: Electrical Circuits* onwards, Matthew provides projects to work on that make you use the knowledge you gained from the book to that point. I will make additional posts for projects I found either challenging or fun.
+
+## How to Prove It & Basic Mathematics
+Last year was the first time I needed to *prove* anything in mathematics. For me, it started out feeling fairly intuitive, but become increasingly difficult as the topics covered became more complex. To assist me this year, I will be going through both of these books which provide excellent examples and exercises in mathematical proofs in a verity of fields. 
+
+___
+
+# Projects
+There are two major projects I am working on which I cannot disclose at the time of writing this. I am hoping to enter two or three hackathons this year. Currently one of my goals is to be good enough at Assembly language to use it solely for UQ Computing Societies Annual Hackathon. Whether that happens or not is still on the table. 
+
+In cyber security, I want to pwn at least three [Hack the Box](https://www.hackthebox.com/) machines this year. I also plan of competing in the *Google Beginners CTF*, *Down Under CTF 2022*, and *HTBxUNI 2022*. 
+
+To practice for these challenges, I will be focusing on [RE CTFd](https://reversing.ctfd.io/), [Embedded CTF](https://microcorruption.com/login), [Pico CTF](https://picoctf.org/) and [Root-Me](https://www.root-me.org/?lang=en). Where I can, I will do challenges set on [VulnHub](https://www.vulnhub.com/), Hack the Box, and [TryHackMe](tryhackme.com/). If allowed, I will also post write-ups for my solutions but that is dependent on the rules of the platform and available time. 
+
+Lastly, there is this GitHub Pages blog. I may make YouTube videos to complement posts or the other way around. Currently that's just a possibility. The point of making this is to have something tangible to track my own progress, showcase my projects, and share whatever I find interesting to me. Thank you for taking the time to read this. I hope future posts are more informative and entertaining.
