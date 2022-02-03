@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Computer Engineering and Mathematical Physics student sharing projects and interests.
 twitter_username: ThatSealgair
 github_username: ThatSealgair
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: neon
 search: true
 
 # Build settings
