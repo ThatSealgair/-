@@ -1,6 +1,6 @@
 ---
 title: "Time To Improve on Algorithms"
-date: 2022-04-02
+date: 2022-02-04
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
