@@ -76,6 +76,7 @@ plain = f.decrypt(payload)
 print(plain) // added line
 exec(plain.decode())
 ```
+
 ___
 
 ## bloat.py
@@ -103,6 +104,7 @@ def arg133(arg432):
   else:
     return True
 ```
+
 ___
 ___
 # Cryptography
@@ -114,7 +116,6 @@ This is the Python Script I wrote that maps and prints the encrypted flag.
 
 ```Python
 code = [128, 63, 242, 87, 151, 147, 50, 369, 239, 248, 205, 346, 299, 73, 335, 189, 105, 293, 37, 214, 333, 137]
-
 decoder = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, '_']
 
 mod_decode = []
@@ -131,12 +132,14 @@ listToStr = ''.join([str(elem) for elem in decoded])
 	
 print(listToStr)
 ```
+
 ___
 ## credstuff
 **Description**:
 We found a leak of a blackmarket website's login credentials. Can you find the password of the user `cultiris` and successfully decrypt it? The first user in `usernames.txt` corresponds to the first password in `passwords.txt`. The second user corresponds to the second password, and so on.
 
 Here, you are given two `.txt` files. By using `crtl-f` (or OS equivalent) to search for `cultiris` in  `username.txt` with your text-editor of choice, you quickly find the row this user is on. Following that, go to that position in the `passwords.txt` file. That password is the flag.
+
 ___
 
 ## morse-code
@@ -144,6 +147,7 @@ ___
 Morse code is well known. Can you decrypt this?
 
 This is a fairly simple challenge. You are given a `.wav` file which contains morse-code. By uploading this file to [Morse Decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html), the flag will be automatically generated for you.
+
 ___
 
 ## substitution0
@@ -151,6 +155,8 @@ ___
 A message has come in but it seems to be all scrambled. Luckily it seems to have the key at the beginning. Can you crack this substitution cipher?
 
 This challenge was easily solved using the [Substitution Cipher Decoder](https://planetcalc.com/8047/)
+
+___
 
 ## substitution2
 **Description**:
