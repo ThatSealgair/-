@@ -110,7 +110,7 @@ Question 2 provided the `RTH`, `ID`, and `current` values to the player that was
     except:
         operating_point = "NULL"
 ```
-If a operating point existed for the diode, the players could get that, otherwise they would provide `NUll`. They didn't require any mathematical, electrical engineering, or numpy knowledge to solve this, just critical reasoning. In fact, the solution is overly simplified and the answer is not quite correct to the analysis required for finding the operating point of a diode.
+If a operating point existed for the diode, the players could get that, otherwise they would provide `NULL`. They didn't require any mathematical, electrical engineering, or numpy knowledge to solve this, just critical reasoning. In fact, the solution is overly simplified and the answer is not quite correct to the analysis required for finding the operating point of a diode.
 
 Question 3 was originally going to present only the values of the components and the player had to infer which question was being asked from `pick_a_card`. The questions given all revolved around passive filters. The values found were to affect later questions, but the complexity of the math is not what was being tested. This ended up being just a comprehension question and another point to ensure the competitors don't get thrown off by unfamiliar questioning.
 
