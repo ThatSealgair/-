@@ -17,6 +17,9 @@ Test 1
 Test 2
 !()[[https://i.redd.it/jxx0holep1g81.png]]
 
+Test 3
+!()[/assets/images/Profile-Image.jpg]
+
 # Don't you do math?
 I would like to post the occassional equation that is formatted by *mathjax*. I was reading [this writeup](https://s3v3ru5.github.io/notes/DiceCTF2021) by [s3v3ru5](https://twitter.com/S3v3ru5_) and saw that they got it to work. 
 
