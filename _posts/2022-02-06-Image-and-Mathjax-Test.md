@@ -12,7 +12,7 @@ tags:
 I would like to see if I can present images from other hosts websites. To test this, **below** is an anime list:
 
 Test 1
-!()[https://i.redd.it/jxx0holep1g81.png]
+!(Pls Work)[sealgair/assets/images/Profile-Image.jpg]
 
 Test 2
 !()[sealgair/assets/images/Profile-Image.jpg]
