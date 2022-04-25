@@ -97,7 +97,7 @@ Question 1 let the competitors know what was chosen by `pick_a_card` by providin
 
 Question 2 provided the `RTH`, `ID`, and `current` values to the player that was needed for all other questions. The solution to the question could be resolved for any case by using the code provided,
 ```Python
-IN = VTH/RTH
+    IN = VTH/RTH
     ID = 1/(RTH) * voltage - IN
     voltage_real = np.linspace(0, VTH, 50)
     diode = np.linspace(0, 100, 50) ** 2.5
