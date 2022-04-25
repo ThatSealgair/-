@@ -73,7 +73,7 @@ There was an bug, however, with Steghide that would only allow one file to be hi
 ## Shuffled
 This concept came from a disagreement where someone said that you could shuffle the letters in the alphabet and so long as you know what the key is, no one else could figure it out. 
 
-To make this I took a UTF-8 file from [this repository](https://github.com/bits/UTF-8-Unicode-Test-Documents) and shuffled the characters in one of the files. I then iterated over the the decided flag and used Python's `.find()` function to find the position of all relevant alphanumeric characters. I then found the greatest common denominator between all the characters and used that to make keys to the flag.
+To make this I took a UTF-8 file from [this repository](https://github.com/bits/UTF-8-Unicode-Test-Documents) and shuffled the characters in one of the files. I then iterated over the the decided flag and used Python's `.find()` function to find the position of all relevant alphanumeric characters. I then found the greatest common denominator between all the character positions and used that to make keys to the flag.
 
 I didn't save the code that I used to develop this unfortunately, I will ensure I do in the future. If I were to make a similar challenge in the future, I would aim to make it a little more complex. The final challenge, the competitors only needed to find four integers that get the flag. This can be done through brute-forcing or realising that `oiccflag{...}` would be in the list. The second option takes longer and hold no benefit to the player for using their head. 
 
