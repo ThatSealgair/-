@@ -1,6 +1,6 @@
 ---
 title: "Sealgair's Oceania ICC Qualifier Challanges 2022"
-date: 2022-26-04
+date: 2022-24-04
 excerpt_separator: "<!--more-->"
 categories:
   - Write Up
