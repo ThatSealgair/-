@@ -68,7 +68,7 @@ Next, competitors were to use an un-altered version of the `tea_pain` image and 
 
 There was an bug, however, with Steghide that would only allow one file to be hidden within the image at a time. Each time I would add a second file, it would corrupt the other. This should have been found during testing, but I only tested that the file I embedded was hidden directly after adding it, missing that problem.
 
-![tea_pain](/sealgair/assets/images/OICCQ_Post/OICC2.png)
+![tea_pain](/sealgair/assets/images/OICCQ_Post/OICC2.PNG)
 
 ## Shuffled
 This concept came from a disagreement where someone said that you could shuffle the letters in the alphabet and so long as you know what the key is, no one else could figure it out. 
@@ -79,7 +79,7 @@ I didn't save the code that I used to develop this unfortunately, I will ensure 
 
 Overall, I proved my point that shuffling characters randomly doesn't make for good encryption.
 
-![tea_pain](/sealgair/assets/images/OICCQ_Post/OICC3.png)
+![tea_pain](/sealgair/assets/images/OICCQ_Post/OICC3.PNG)
 
 
 ## Computer Engineering Final Exam
@@ -125,7 +125,7 @@ What was chosen by `pick_a_card` was going to have additional `if then` modifier
 
 As stated the values found in Question 3 were going to modify other aspects of the questions including a modifier on the Question 4's `shortest_path` this was again decided against because mathematical complexity was not being tested in this challenge. 
 
-![tea_pain](/sealgair/assets/images/OICCQ_Post/OICC1.png)
+![tea_pain](/sealgair/assets/images/OICCQ_Post/OICC1.jpg)
 
 ## Reflection
 One of the biggest things for me to do better in the future would be to start much earlier and test my challenges all the way through to the end. I also want to look into better planning methods than random writing down of ideas and testing concepts only. 
