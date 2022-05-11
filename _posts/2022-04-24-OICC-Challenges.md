@@ -97,18 +97,18 @@ Question 1 let the competitors know what was chosen by `pick_a_card` by providin
 
 Question 2 provided the `RTH`, `ID`, and `current` values to the player that was needed for all other questions. The solution to the question could be resolved for any case by using the code provided,
 ```Python
-    IN = VTH/RTH
-    ID = 1/(RTH) * voltage - IN
-    voltage_real = np.linspace(0, VTH, 50)
-    diode = np.linspace(0, 100, 50) ** 2.5
-    Vd = np.argwhere(np.diff(np.sign(voltage_real - diode))).flatten()
+IN = VTH/RTH
+ID = 1/(RTH) * voltage - IN
+voltage_real = np.linspace(0, VTH, 50)
+diode = np.linspace(0, 100, 50) ** 2.5
+Vd = np.argwhere(np.diff(np.sign(voltage_real - diode))).flatten()
 
-    operating_point = "0, 0"
+operating_point = "0, 0"
 
-    try:
-        operating_point = str(int(Vd[1])) + ", " + str(int(voltage_real[Vd[1]]))
-    except:
-        operating_point = "NULL"
+try:
+    operating_point = str(int(Vd[1])) + ", " + str(int(voltage_real[Vd[1]]))
+except:
+    operating_point = "NULL"
 ```
 If a operating point existed for the diode, the players could get that, otherwise they would provide `NULL`. They didn't require any mathematical, electrical engineering, or numpy knowledge to solve this, just critical reasoning. In fact, the solution is overly simplified and the answer is not quite correct to the analysis required for finding the operating point of a diode.
 
