@@ -22,7 +22,7 @@ The `tea_pain` challenge was one of my first conceptualised challenges. It is ba
 
 This image was converted using [Text-Image](https://www.text-image.com/) to be made up of the Arabic numerals. This conversion can be seen as a coordinate system on the Cartesian Plane.  From that I created the following generator to create the keys the competitors needed to find. 
 
-```Python
+```python
 import random as r
 
 # The desired number of coordinates and x,y size of array
@@ -96,7 +96,7 @@ Competitors needed to solve five questions total and then two *are you human* qu
 Question 1 let the competitors know what was chosen by `pick_a_card` by providing a simple question they needed to respond to.
 
 Question 2 provided the `RTH`, `ID`, and `current` values to the player that was needed for all other questions. The solution to the question could be resolved for any case by using the code provided,
-```Python
+```python
 IN = VTH/RTH
 ID = 1/(RTH) * voltage - IN
 voltage_real = np.linspace(0, VTH, 50)
