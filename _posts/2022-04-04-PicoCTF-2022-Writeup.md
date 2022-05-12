@@ -31,7 +31,7 @@ Can you get the flag?
 
 This was a pretty simple solve. By commenting out the `if` statement presented and moving `decryption` inline with the rest of the function code, `level_1_pw_check()` will always output the decoded flag.
 
-```Python
+```python
 def level_1_pw_check():
     user_pw = input("Please enter correct password for flag: ")
     #if( user_pw == "ak98" + \
@@ -52,7 +52,7 @@ Can you open this safe? I forgot the key to my safe but this program is supposed
 
 After downloading the file and inspecting the code, it is clear that `encodedkey` in the `openSafe` function is encoded in base64. By taking that string to the world famous [Cyber Chef](https://gchq.github.io/CyberChef/), the flag is retrieved. 
 
-```Java
+```java
     public static boolean openSafe(String password) {
         String encodedkey = "cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz";
         
@@ -85,7 +85,7 @@ Can you get the flag?
 
 This is a nice obfuscation problem that looks confusing at first, but quickly the logic of the functions can be exploited. By looking at the program, it is clear that the function `arg133(arg432)` is the only function which rejects user input and closes the program. So, rather than try to deobfuscate the problem, the simplest solution is to again change what happens at the `if` statement to prevent the closing of the program.
 
-```Python
+```python
 \\ Orginal Function
 def arg133(arg432):
   if arg432 == a[71]+a[64]+a[79]+a[79]+a[88]+a[66]+a[71]+a[64]+a[77]+a[66]+a[68]:
@@ -114,7 +114,7 @@ We found this weird message being passed around on the servers, we think we have
 
 This is the Python Script I wrote that maps and prints the encrypted flag.
 
-```Python
+```python
 code = [128, 63, 242, 87, 151, 147, 50, 369, 239, 248, 205, 346, 299, 73, 335, 189, 105, 293, 37, 214, 333, 137]
 decoder = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, '_']
 
