@@ -35,6 +35,7 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+use_math: true
 
 include:
   - _pages
