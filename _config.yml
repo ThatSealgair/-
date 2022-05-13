@@ -32,9 +32,10 @@ timezone: Australia/Brisbane
 highlighter: rouge
 gist:
   noscript: false
-kramdown:
-  math_engine: maruku
-  syntax_highlighter: rouge
+#kramdown:
+#  math_engine: maruku
+#  syntax_highlighter: rouge
+markdown: maruku
 use_math: true
 
 include:
