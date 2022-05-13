@@ -6,6 +6,7 @@ categories:
   - Test
 tags:
   - Test
+use_math: true
 ---
 
 Images work!
