@@ -15,4 +15,6 @@ I would like to post the occassional equation that is formatted by *mathjax*. I 
 
 Here is a test, $$log_{b}x=y\quad\iff\quad b^{y}=x$$
 
+$log_{b}x=y\quad\iff\quad b^{y}=x$
+
 Work on MathJax
