@@ -35,7 +35,7 @@ gist:
 #kramdown:
 #  math_engine: maruku
 #  syntax_highlighter: rouge
-markdown: maruku
+markdown: kramdown
 use_math: true
 
 include:
