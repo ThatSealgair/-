@@ -37,7 +37,9 @@ It is also possible to just type `strings wave-a-flag | grep picoCTF` and get th
 
 # Reference
 [PicoCTF](https://play.picoctf.org/)
+
 [Radare2](https://github.com/radareorg/radare2)
+
 [CTF Walkthroughs Using Radare2](https://r2wiki.readthedocs.io/en/latest/home/ctf-solving-using-radare2/)
 
 
