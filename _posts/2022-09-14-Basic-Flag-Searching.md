@@ -1,6 +1,6 @@
 ---
 title: "Basic Flag Searching"
-date: 2022-14-09
+date: 2022-09-14
 excerpt_separator: "<!--more-->"
 categories:
   - Write Up
